@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "HabitGrid",
+    "slug": "habitgrid",
+    "version": "1.0.0",
+    "scheme": "habitgrid",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0f1420",
+      "resizeMode": "contain"
+    },
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": { "backgroundColor": "#0f1420" },
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": { "bundler": "metro" },
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true }
+  }
+}
